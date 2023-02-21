@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: sans-serif;
 }
 
-/* HEADER */
+/* Nav bar */
 
 .menu-container {
 background-color:  #1F2937;
@@ -47,4 +48,59 @@ flex-wrap: wrap;
     cursor: pointer;
 }
 
-/* HEADER end */
+
+/* header-hero */
+.header-container {
+    background-color: #1F2937;
+    padding: 7em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    }
+    
+    .header {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    }
+    
+    .hero {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    width: 60%;
+    }
+    
+    .secondary, .button-one {
+    color: #E5E7EB;
+    font-size: 18px;
+    width: 75%;
+    }
+    
+    .button-one {
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    }
+    
+    .header button {
+    border: none;
+    cursor: pointer;
+    }
+    
+    .hero-image {
+    width: 525px;
+    height: 237px;
+    background-color: gray;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    font-size: 18px;
+    }
+    
+    /* MAIN SECTION*/
